@@ -28,7 +28,7 @@
         "internalName" : "NL.DETORA.APEX.COPY_TO_CLIPBOARD",
         "type" : "dynamic action",
         "demo" : "http://www.speech2form.com/ords/f?p=OPFG:COPY_TO_CLIPBOARD",
-        "previewImage" : "https://raw.githubusercontent.com/dickdral/apex-copy_to_clipboard/master/resize_dialog_example.gif"
+        "previewImage" : "https://raw.githubusercontent.com/dickdral/apex-copy_to_clipboard/master/copytoclipboard_example.gif"
       }
     }
   }

@@ -28,7 +28,11 @@ copy_to_clipboard: function ( elem )
             target.id = targetId;
             document.body.appendChild(target);
         }
-        target.textContent = $(elem).val();
+        if ( elem.tagName == "INPUT" )
+        { target.textContent = $(elem).val(); }
+        else
+        { target.textContent = $(elem).text(); }
+        
     }
     // select the content
     var currentFocus = document.activeElement;

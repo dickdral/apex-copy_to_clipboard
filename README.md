@@ -3,7 +3,7 @@ Oracle Apex plug-in for copying the content of an Apex item to the clipboard.
 
 ## Change history
 - V1.0    Initial version
-- V1.1    Support for Apex hidden items added
+- V1.1    Added support for Apex hidden items and JQuery selections
 
 ## Requirements
 The plugin can be used with Apex 5.0 and Apex 5.1. 

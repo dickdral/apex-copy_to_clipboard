@@ -10,7 +10,7 @@ copy_to_clipboard: function ( elem )
 {
 	  // create hidden text element, if it doesn't already exist
     var targetId = "_hiddenCopyText_";
-    var isInput = ( elem.tagName === "INPUT" || elem.tagName === "TEXTAREA" ) && elem[0].type.toLowerCase() != 'hidden';
+    var isInput = ( elem.tagName === "INPUT" || elem.tagName === "TEXTAREA" ) && elem.type.toLowerCase() != 'hidden';
     var origSelectionStart, origSelectionEnd;
     if (isInput) {
         // can just use the original source element for the selection and copy

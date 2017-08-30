@@ -60,7 +60,8 @@ wwv_flow_api.create_plugin(
 ,p_standard_attributes=>'ITEM:REQUIRED'
 ,p_substitute_attributes=>true
 ,p_subscribe_plugin_settings=>true
-,p_version_identifier=>'1.0'
+,p_version_identifier=>'1.1'
+,p_about_url=>'http://www.speech2form.com/ords/f?p=OPFG:COPY_TO_CLIPBOARD'
 ,p_files_version=>6
 );
 end;

@@ -1,6 +1,6 @@
 {
   "name" : "Copy to Clipboard",
-  "version" : "v1.0",
+  "version" : "v1.1",
   "description" : "Copies the content of an Apex item to the clipboard",
   "keywords" : ["copy","clipboard","dynamic action"],
   "homepage" : "https://github.com/dickdral/apex-copy_to_clipboard",

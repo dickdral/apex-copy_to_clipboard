@@ -1,6 +1,7 @@
 // APEX Copy to Clipboard
 // Author: Dick Dral (Detora)
-// Version: 1.0
+// Version: 1.1
+// support for Apex hidden items added
 
 // global namespace
 var apexcopytoclipboard = {
@@ -9,7 +10,7 @@ copy_to_clipboard: function ( elem )
 {
 	  // create hidden text element, if it doesn't already exist
     var targetId = "_hiddenCopyText_";
-    var isInput = elem.tagName === "INPUT" || elem.tagName === "TEXTAREA";
+    var isInput = ( elem.tagName === "INPUT" || elem.tagName === "TEXTAREA" ) && elem[0].type.toLowerCase() != 'hidden';
     var origSelectionStart, origSelectionEnd;
     if (isInput) {
         // can just use the original source element for the selection and copy
@@ -27,7 +28,7 @@ copy_to_clipboard: function ( elem )
             target.id = targetId;
             document.body.appendChild(target);
         }
-        target.textContent = elem.textContent;
+        target.textContent = $(elem).val();
     }
     // select the content
     var currentFocus = document.activeElement;

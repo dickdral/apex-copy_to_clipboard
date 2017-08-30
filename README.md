@@ -3,12 +3,13 @@ Oracle Apex plug-in for copying the content of an Apex item to the clipboard.
 
 ## Change history
 - V1.0    Initial version
+- V1.1    Support for Apex hidden items added
 
 ## Requirements
 The plugin can be used with Apex 5.0 and Apex 5.1. 
 
 ## Install
-- Import plugin file "dynamic_action_plugin_nl_detora_apex_resize_dialog.sql" from source directory into your application
+- Import plugin file "dynamic_action_plugin_nl_detora_apex_copytoclipboard.sql" from source directory into your application
 - You can use the plug-in to copy the content of an Apex item to the clipboard
 
 ## Plugin Settings
